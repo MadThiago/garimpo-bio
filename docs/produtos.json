@@ -1,0 +1,38 @@
+{
+  "atualizado_em": "2026-11-25T00:00:00",
+  "produtos": [],
+  "categorias": [
+    {
+      "id": "pesca",
+      "nome": "Pesca"
+    },
+    {
+      "id": "facas",
+      "nome": "Facas e ferramentas"
+    },
+    {
+      "id": "camping",
+      "nome": "Camping"
+    },
+    {
+      "id": "fogo",
+      "nome": "Fogo"
+    },
+    {
+      "id": "sobrevivencia",
+      "nome": "Sobrevivência"
+    },
+    {
+      "id": "roupas",
+      "nome": "Roupas"
+    },
+    {
+      "id": "mochilas",
+      "nome": "Mochilas e bolsas"
+    },
+    {
+      "id": "outros",
+      "nome": "Outros"
+    }
+  ]
+}

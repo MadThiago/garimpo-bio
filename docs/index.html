@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Garimpo Outdoor</title>
+  <meta name="description" content="Achados de pesca, camping e trilha garimpados na Shopee: os produtos do Instagram e do canal do Telegram do Garimpo Outdoor.">
+  <meta name="theme-color" content="#001e01">
+  <link rel="canonical" href="https://madthiago.github.io/garimpo-bio/">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Garimpo Outdoor">
+  <meta property="og:title" content="Garimpo Outdoor: encontre sua próxima aventura">
+  <meta property="og:description" content="Achados de pesca, camping e trilha da Shopee, com preço e link para comprar.">
+  <meta property="og:url" content="https://madthiago.github.io/garimpo-bio/">
+  <meta property="og:image" content="https://madthiago.github.io/garimpo-bio/assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preload" href="assets/fontes/Barlow-Black.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fontes/BarlowCondensed-ExtraBoldItalic.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+  <div class="faixa faixa--topo" aria-hidden="true"></div>
+  <div class="faixa faixa--base" aria-hidden="true"></div>
+
+  <main class="pagina">
+    <header class="perfil">
+      <img class="perfil__foto" src="assets/img/perfil.webp" width="112" height="112" alt="Logo Garimpo Outdoor">
+      <h1 class="marca"><span class="marca__a">Garimpo</span> <span class="marca__b">Outdoor</span></h1>
+      <p class="selo">Encontre sua próxima aventura</p>
+
+      <nav class="redes" aria-label="Redes sociais">
+        <a class="rede" href="https://www.instagram.com/garimpooutdoor/" target="_blank" rel="noopener" aria-label="Instagram" data-rede="instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.3" fill="currentColor"/></svg>
+        </a>
+      </nav>
+
+      <a class="telegram" href="https://t.me/GarimpoOutdoor" target="_blank" rel="noopener" data-rede="telegram">
+        <span class="telegram__icone" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path fill="currentColor" d="M21.6 4.2 18.4 19.4c-.2 1.1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.4-5 9.1-8.2c.4-.4-.1-.6-.6-.2L5.9 13 1.1 11.5c-1-.3-1.1-1 .2-1.5L20.3 2.7c.9-.3 1.6.2 1.3 1.5z"/></svg>
+        </span>
+        <span class="telegram__texto">
+          <strong>Entre no nosso canal no Telegram</strong>
+          <span>e não perca nenhuma oferta</span>
+        </span>
+        <svg class="telegram__seta" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </header>
+
+    <section class="ofertas" aria-labelledby="titulo-ofertas">
+      <div class="ofertas__topo">
+        <h2 id="titulo-ofertas" class="titulo-secao">Achados <span>do momento</span></h2>
+        <label class="busca">
+          <span class="sr">Buscar produto</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+          <input id="busca" type="search" placeholder="Buscar achado" autocomplete="off">
+        </label>
+      </div>
+      <div id="filtros" class="filtros" role="group" aria-label="Filtrar por categoria"></div>
+      <ul id="lista" class="lista" aria-live="polite"></ul>
+      <p id="vazio" class="vazio" hidden>Nenhum achado com esse nome. Tente outra palavra.</p>
+    </section>
+
+    <footer class="rodape">
+      <p><strong>#publi</strong> Os botões levam a links de afiliado da Shopee: posso receber comissão pelas compras, sem custo a mais para você.</p>
+      <p>Cada preço é o do dia em que foi apurado e pode mudar. Confira preço, variação e frete na Shopee antes de comprar.</p>
+      <p><a href="privacidade.html">Política de privacidade</a>.</p>
+      <p class="rodape__marca">© <span id="ano"></span> Garimpo Outdoor</p>
+    </footer>
+  </main>
+
+  <script src="assets/app.js" defer></script>
+  <!-- Contagem de visitas (opcional): crie um site no goatcounter.com e cole aqui o script dele. -->
+</body>
+</html>

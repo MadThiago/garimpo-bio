@@ -1,0 +1,149 @@
+{
+  "_leia": "Categorias da página. A ordem aqui é a ordem dos filtros. Cada produto cai na primeira regra que bater: (1) ids de categoria da Shopee (productCatIds; vale qualquer nível, o mais específico ganha), (2) palavras no nome, na ordem das categorias, (3) 'padrao'. Depois de editar, rode `bio categorizar` para reclassificar o site. Os ids da Shopee começam vazios: quando um achado cair em 'Outros', o terminal mostra o id para incluir aqui. Palavras genéricas (pesca, camping...) ficam de fora de propósito: o produto cai na primeira categoria que bater, e 'Camisa UV Pesca' tem de cair em Roupas, não em Pesca.",
+  "padrao": "outros",
+  "categorias": [
+    {
+      "id": "pesca",
+      "nome": "Pesca",
+      "shopee": [],
+      "palavras": [
+        "vara de pesca",
+        "vara telescopica",
+        "molinete",
+        "carretilha",
+        "isca",
+        "iscas",
+        "jig",
+        "anzol",
+        "anzois",
+        "linha de pesca",
+        "linha multifilamento",
+        "boia",
+        "chumbada",
+        "girador",
+        "snap",
+        "pega peixe",
+        "puca",
+        "porta vara",
+        "caixa de pesca",
+        "kit pesca",
+        "acessorios de pesca",
+        "traira",
+        "tucunare",
+        "caixa organizadora"
+      ]
+    },
+    {
+      "id": "facas",
+      "nome": "Facas e ferramentas",
+      "shopee": [],
+      "palavras": [
+        "canivete",
+        "faca",
+        "facas",
+        "multiferramenta",
+        "afiador",
+        "amolador",
+        "serra dobravel",
+        "machadinha",
+        "alicate"
+      ]
+    },
+    {
+      "id": "camping",
+      "nome": "Camping",
+      "shopee": [],
+      "palavras": [
+        "barraca",
+        "cadeira dobravel",
+        "saco de dormir",
+        "rede de descanso",
+        "rede camping",
+        "colchonete",
+        "isolante",
+        "lampiao",
+        "fogareiro",
+        "panela camping",
+        "caneca",
+        "garrafa termica",
+        "lanterna",
+        "headlamp",
+        "filtro de agua",
+        "power bank",
+        "powerbank"
+      ]
+    },
+    {
+      "id": "fogo",
+      "nome": "Fogo",
+      "shopee": [],
+      "palavras": [
+        "kit fogo",
+        "ferrocerio",
+        "pederneira",
+        "acendedor",
+        "pavio",
+        "isqueiro",
+        "fogueira"
+      ]
+    },
+    {
+      "id": "sobrevivencia",
+      "nome": "Sobrevivência",
+      "shopee": [],
+      "palavras": [
+        "paracord",
+        "lona",
+        "mosquetao",
+        "bussola",
+        "primeiros socorros",
+        "apito",
+        "cobertor termico",
+        "manta termica"
+      ]
+    },
+    {
+      "id": "roupas",
+      "nome": "Roupas",
+      "shopee": [],
+      "palavras": [
+        "camisa uv",
+        "camiseta uv",
+        "camisa",
+        "balaclava",
+        "luva",
+        "bone",
+        "chapeu",
+        "bermuda",
+        "calca",
+        "jaqueta",
+        "corta vento",
+        "meia",
+        "capa de chuva",
+        "poncho",
+        "bota",
+        "tenis"
+      ]
+    },
+    {
+      "id": "mochilas",
+      "nome": "Mochilas e bolsas",
+      "shopee": [],
+      "palavras": [
+        "mochila",
+        "mochilas",
+        "hidratacao",
+        "bolsa estanque",
+        "saco estanque",
+        "pochete",
+        "bolsa"
+      ]
+    },
+    {
+      "id": "outros",
+      "nome": "Outros",
+      "shopee": [],
+      "palavras": []
+    }
+  ]
+}
